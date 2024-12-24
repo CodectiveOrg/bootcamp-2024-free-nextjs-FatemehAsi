@@ -1,3 +1,20 @@
 export default function Home() {
-  return <h1>سلام، رفیق!</h1>;
+  return (
+    <main>
+      <button>Button</button>
+      <input type="text" />
+      <label>
+        <input type="checkbox" />
+        Checkbox
+      </label>
+      <select name="" id="">
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+        <option value="">4</option>
+        <option value="">5</option>
+      </select>
+      <h1>سلام، رفیق!</h1>;
+    </main>
+  );
 }
