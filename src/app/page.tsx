@@ -1,4 +1,3 @@
-export default async function Home() {
-  return;
-  <h1>سلام، رفیق!</h1>;
+export default function Home() {
+  return <h1>سلام، رفیق!</h1>;
 }
